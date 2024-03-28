@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Page/home_page.dart';
 import 'package:flutter_application_1/Page/home_screens.dart';
 
 class LoginPage extends StatefulWidget {
@@ -92,7 +93,7 @@ class _LoginPageState extends State<LoginPage> {
                             Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => HomeScreens()),
+                                  builder: (context) => HomePage()),
                             );
                           },
                           child: Padding(

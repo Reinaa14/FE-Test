@@ -17,6 +17,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         // theme: ThemeData(fontFamily: 'KodeMono'),
         debugShowCheckedModeBanner: false,
-        home: HomePage());
+        home: SplashScreens());
   }
 }
